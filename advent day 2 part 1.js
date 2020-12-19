@@ -1,5 +1,5 @@
 const fs = require('fs');
-const lines = fs.readFileSync('Advent Challenges/input2.txt', {encoding: 'utf-8'}).split('\n');
+const lines = fs.readFileSync('Advent Challenges Completed/input2.txt', {encoding: 'utf-8'}).split('\n');
 let validPasswords = 0;
 for (let i=0; i < lines.length; i++) {
     const fields = parseFields(lines[i]);
